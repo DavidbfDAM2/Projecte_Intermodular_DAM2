@@ -1,7 +1,7 @@
 ---
-titol: Títol del projecte
+titol: Aplicació Android per a la gestió de la borsa de pràctiques
 subtitol: Subtítol opcional
-titol_breu: Títol del projecte
+titol_breu: Borsa de pràctiques
 autor: Autor/autors
 departament: Departament
 centre: Institut Rafael Campalans
@@ -17,135 +17,135 @@ data: Data de lliurament
 
 ## Descripció general
 
-[Presenta el producte, la necessitat que resol, el client o públic destinatari i el tipus d’aplicació.]
+[Presenta l’aplicació Android i el problema concret que vol resoldre en la gestió de la borsa de pràctiques del centre. Explica com es gestiona actualment aquest procés —quan ho hagis investigat—, qui en són els usuaris i beneficiaris, i quin abast tindrà l’app. Distingeix les funcions confirmades de les que encara són propostes.]
 
 ## Motivació a fer el projecte
 
-[Explica per què has triat el projecte i quin interès personal, acadèmic o professional té.]
+[Explica per què has triat una app per a la borsa de pràctiques i quin interès personal, acadèmic o professional té. Pots relacionar-ho amb necessitats observades al centre, sempre que les hagis contrastat amb persones o fonts.]
 
 ## Finalitats del projecte
 
-[Formula l’objectiu general i els objectius específics, amb criteris que permetin comprovar si s’han assolit.]
+[Formula un objectiu general i objectius específics mesurables. Considera fites com analitzar el procés, definir i validar requisits, dissenyar l’app Android, implementar les funcions acordades i provar-les amb casos verificables. Inclou només les fites que formin part del teu projecte.]
 
 ## Alternatives a la construcció
 
-[Compara les solucions existents i justifica la necessitat de desenvolupar el producte.]
+[Compara com el centre gestiona actualment les pràctiques i les alternatives disponibles: eines ja utilitzades, plataformes existents o una solució web, entre d’altres. Investiga’n els avantatges i limitacions per als usuaris reals i justifica què aportaria desenvolupar una app Android. No pressuposis que el centre no disposa de cap sistema.]
 
 ## Tria dels llenguatges de programació i SGBD
 
-[Indica els llenguatges, les tecnologies i el sistema gestor de base de dades, i justifica’n la tria. Identifica també les fonts externes de dades o API previstes.]
+[Descriu les alternatives i la tria del llenguatge i entorn de desenvolupament Android, les tecnologies de la interfície, la persistència de dades, el possible servidor o API i els serveis externs (per exemple, notificacions), només si s’utilitzen. Justifica cada decisió segons els requisits, els coneixements disponibles, el cost i el manteniment. Indica quines dades provenen del centre o d’altres serveis i com s’hi accedirà.]
 
 # PLA D’EMPRESA
 
 ## Estudi de mercat
 
-[Descriu el públic objectiu, les necessitats, la competència i la proposta de valor. Cita les fonts de les dades.]
+[Analitza el centre com a possible client o entorn d’ús, els perfils que realment hi participaran (per exemple, alumnat, coordinació de pràctiques, empreses col·laboradores) i les seves necessitats. Estudia les solucions alternatives i concreta la proposta de valor de l’app per a cada perfil. Basa les conclusions en entrevistes, enquestes o fonts citades; no presentis supòsits com si fossin dades.]
 
 ## Anàlisi DAFO
 
-[Identifica les debilitats i fortaleses internes i les amenaces i oportunitats externes; explica les actuacions que se’n deriven.]
+[Valora les fortaleses i debilitats del projecte i les oportunitats i amenaces de l’entorn. Considera, si s’escau, l’accés dels usuaris a Android, l’adopció per part del centre i les empreses, la protecció de dades i la dependència de serveis externs. Per a cada punt important, indica una mesura o decisió que se’n derivi.]
 
 ## Pressupost del projecte
 
-[Detalla els costos inicials i recurrents, les hores de treball i el cost total. Indica les unitats, els preus i les fonts dels imports.]
+[Calcula els costos inicials i recurrents necessaris per desenvolupar, provar i mantenir l’app: hores de treball, dispositius de prova, allotjament o serveis en línia i llicències, si n’hi ha. Separa els costos reals dels estimats i cita la font, la data, les unitats i els preus.]
 
 ### Anàlisi del maquinari necessari
 
-[Detalla el maquinari, les quantitats, els preus i la justificació de les decisions.]
+[Detalla els dispositius Android i ordinadors necessaris per desenvolupar i provar l’app, incloent-hi els que ja tens i els que caldria adquirir. Indica quantitats, preus i per què són suficients per provar les versions i mides de pantalla previstes.]
 
 ### Anàlisi del programari necessari
 
-[Relaciona el programari, les llicències i els costos, i justifica la selecció des del punt de vista econòmic i funcional.]
+[Relaciona l’entorn de desenvolupament Android, les eines de disseny i proves, les bases de dades, els serveis de servidor/API i altres dependències que utilitzi realment el projecte. Indica llicències i costos, i justifica la selecció funcional i econòmicament.]
 
 ## Finançament
 
-[Explica els recursos propis, possibles ajudes i altres vies de finançament; incorpora les despeses de constitució de l’empresa i valora la viabilitat.]
+[Explica com es cobririen les despeses del projecte i del seu manteniment si es posés en servei. Si la constitució d’una empresa forma part de l’activitat, incorpora’n les despeses; si no és aplicable a un projecte acadèmic, deixa-ho justificat i no inventis finançament. Valora la viabilitat a partir del pressupost calculat.]
 
 # ANÀLISI, DISSENY I CONSTRUCCIÓ DEL PROJECTE
 
 ## Fases
 
-[Descriu les fases i compara la durada estimada amb la real. Justifica les desviacions.]
+[Descriu les fases del projecte, com ara recerca del procés actual, requisits, disseny, desenvolupament Android, proves i preparació del lliurament. Compara la durada estimada amb la real i justifica les desviacions amb evidències.]
 
 ## Temporització
 
-[Distribueix les tasques en el temps i identifica responsables, fites i lliurables.]
+[Distribueix les tasques d’anàlisi, disseny, implementació, proves i documentació en el temps. Identifica responsables, fites i lliurables; si treballes individualment, indica-ho.]
 
 ## Diagrama de Gantt
 
-[Insereix el diagrama amb tasques, recursos, dependències i terminis. Mantén diferenciades la planificació inicial i l’execució real.]
+[Insereix el diagrama amb les tasques principals de l’app, dependències, recursos i terminis. Mantén diferenciades la planificació inicial i l’execució real i actualitza’l quan canviï l’abast.]
 
 ## Planificació i seguiment
 
-[Explica l’ús de Scrum, els esprints setmanals i Jira o una eina equivalent. Inclou l’enllaç al tauler compartit amb el professorat, les revisions i els canvis validats pel tutor. Documenta també el repositori Git, els commits i les versions. Si és un projecte en grup, concreta el repartiment de responsabilitats.]
+[Explica el mètode de treball acordat amb el tutor: com planifiques i revises tasques com els requisits, les pantalles, les funcions Android i les proves. Si utilitzes Scrum, descriu els esprints; si utilitzes Jira o una eina equivalent, inclou l’enllaç al tauler compartit i les revisions. Registra els canvis validats pel tutor, l’evolució del repositori Git, els commits i les versions. Si el projecte és individual, concreta la teva responsabilitat; si és en grup, explica el repartiment.]
 
 # REQUERIMENTS
 
 ## Àmbit i camp del projecte
 
-[Delimita què inclou el projecte, què en queda fora, els usuaris implicats i les restriccions.]
+[Delimita què resoldrà l’app Android i què en queda fora (per exemple, si només es consultarà una borsa existent o si també es gestionaran ofertes i candidatures). Identifica els perfils d’usuari confirmats, els sistemes amb què s’ha d’integrar, les restriccions de temps i tecnologia i les decisions pendents de validar amb el centre.]
 
 ## Requeriments funcionals
 
-[Identifica cada requeriment, la funcionalitat, la prioritat i el criteri d’acceptació.]
+[Dona un identificador a cada funció i especifica usuari, necessitat, prioritat i criteri d’acceptació. Investiga quines funcions calen de debò; com a possibles exemples a validar, considera consultar i filtrar ofertes, veure’n el detall, presentar o retirar una candidatura, consultar-ne l’estat i gestionar ofertes o candidatures des d’un perfil autoritzat. No les incloguis com a requisits fins que s’hagin acordat.]
 
 ## Requeriments no funcionals
 
-[Defineix requisits mesurables de rendiment, usabilitat, accessibilitat, compatibilitat, disponibilitat i manteniment.]
+[Defineix criteris comprovables d’usabilitat, accessibilitat, rendiment, compatibilitat amb versions i dispositius Android, disponibilitat, manteniment i seguretat. Especifica, si escau, què passa sense connexió, com es gestionen errors de xarxa i quins temps de resposta són acceptables.]
 
 ## Diagrames de casos d’ús
 
-[Insereix els diagrames amb actors, límits del sistema i relacions; explica’ls en el text.]
+[Representa els perfils que hagis confirmat (per exemple, estudiant, coordinador/a o empresa, si formen part de l’abast), el límit entre l’app i serveis externs, i les funcions principals de cada actor. Explica les decisions i no afegeixis actors o funcions que no s’hagin acordat.]
 
 ## Fitxes de casos d’ús
 
-[Per a cada cas indica identificador, nom, actors, precondicions, desencadenant, flux principal, alternatives, errors i postcondicions.]
+[Documenta els casos d’ús rellevants per a la borsa. Per a cadascun indica identificador, nom, actor, precondicions, desencadenant, flux principal, alternatives, errors i postcondicions. Inclou només els casos que corresponguin a requisits aprovats, com consultar ofertes o gestionar una candidatura si aquestes funcions s’implementen.]
 
 ## Diagrames d’activitat
 
-[Representa el flux de les funcionalitats principals, amb decisions i excepcions.]
+[Representa el flux de les funcions principals acordades, incloent-hi decisions i excepcions. Si s’implementa una candidatura, per exemple, mostra els passos des de la selecció d’una oferta fins a la confirmació o consulta del seu estat.]
 
 ## Diagrama de classes
 
-[Insereix i explica les classes, els atributs, els mètodes i les relacions.]
+[Insereix i explica les classes del domini i les seves relacions, d’acord amb les funcions i dades que realment implementis. Poden aparèixer conceptes com usuari, oferta, empresa o candidatura si formen part del model; defineix-ne atributs i responsabilitats sense duplicar dades innecessàries.]
 
 ## Disseny modular del projecte
 
-[Descriu els mòduls, les responsabilitats i els criteris de separació.]
+[Descriu com organitzes l’app Android en mòduls o capes i quina responsabilitat té cadascun (per exemple, interfície, lògica de negoci i accés a dades, si aquesta és l’arquitectura escollida). Explica els criteris de separació i les decisions que hagis pres.]
 
 ## Estructura dels mòduls del projecte i dependències entre ells
 
-[Representa l’organització del projecte i explica les interfícies i dependències entre mòduls.]
+[Mostra l’estructura real dels mòduls del projecte Android i les dependències entre ells. Explica com circulen les dades entre la interfície, la lògica de l’app i la base de dades o API, segons l’arquitectura implementada.]
 
 # ESTRUCTURA DE LES DADES
 
 ## Model entitat-relació de la BD
 
-[Insereix el model entitat-relació i explica les entitats, les relacions i les cardinalitats. Si no correspon al projecte, justifica-ho amb el tutor.]
+[Insereix el model de la base de dades que utilitzi el projecte i explica entitats, relacions i cardinalitats. Segons les funcions, podrien existir dades d’usuaris, empreses, ofertes i candidatures; inclou-les només si l’app les desa o gestiona. Si les dades es conserven en un servei extern o el model no és relacional, explica-ho i valida amb el tutor com documentar-ho.]
 
 ## Model relacional
 
-[Descriu les taules, els camps, els tipus, les claus primàries i foranes i les restriccions. Justifica la transformació del model anterior.]
+[Descriu les taules i camps que realment utilitzis, els tipus, les claus, les restriccions i les relacions. Justifica com has passat del model conceptual a l’estructura implementada. Si utilitzes una base de dades no relacional o l’emmagatzematge d’un servei extern, documenta’n l’estructura equivalent.]
 
 # DESCRIPCIÓ DE LES INTERFÍCIES, INTERACCIÓ AMB L’USUARI
 
-[Insereix esbossos o captures de les pantalles i descriu la navegació, els formularis, els missatges i les interaccions principals. Relaciona les pantalles amb els casos d’ús i remet al manual d’usuari quan calgui.]
+[Insereix esbossos o captures de les pantalles Android implementades. Explica la navegació i els estats de càrrega, buits, errors i confirmació. Segons l’abast, pots documentar inici de sessió, llistat i detall d’ofertes, formulari de candidatura o panell de gestió; no presentis pantalles proposades com si ja estiguessin implementades. Relaciona-les amb els casos d’ús i remet al manual d’usuari quan calgui.]
 
 # ASPECTES DE SEGURETAT I D’ACCÉS A LES DADES
 
-[Descriu l’autenticació, els rols i permisos, la validació de dades, la gestió de credencials i les mesures de protecció aplicades. Aporta evidències sense incloure contrasenyes ni dades personals reals.]
+[Descriu l’autenticació i els permisos de cada perfil, la validació d’entrades, la protecció de les comunicacions, la gestió de credencials i les mesures de seguretat implementades. Avalua especialment les dades personals que l’app pugui tractar (dades de contacte, candidatures o documents adjunts, si n’hi ha), qui hi pot accedir, durant quant de temps es conserven i quines obligacions cal consultar amb el centre. Aporta evidències amb dades fictícies o anonimitzades; no incloguis contrasenyes ni dades personals reals.]
 
 # CÒPIES DE SEGURETAT
 
-[Indica què es copia, amb quina freqüència, on s’emmagatzema, durant quant de temps i qui n’és responsable. Explica el procediment de restauració i documenta una prova de recuperació.]
+[Explica si l’app requereix còpies de les dades gestionades: què es copia (base de dades i fitxers pujats, si n’hi ha), freqüència, ubicació protegida, retenció i responsable. Diferencia les còpies de les dades de les còpies del codi al repositori Git. Descriu com restaurar-les i documenta una prova; si les còpies depenen del centre o d’un servei extern, indica-ho.]
 
 # ERRORS I PROBLEMES DURANT EL DESENVOLUPAMENT
 
-[Per a cada incidència registra la data, el problema, la causa, les alternatives, la solució i la verificació. Explica l’impacte en el calendari i els aprenentatges.]
+[Registra incidències de l’anàlisi, el desenvolupament Android, les proves en dispositius, la connectivitat o la integració amb serveis. Per a cadascuna indica data, símptoma, causa investigada, alternatives, solució i comprovació. Explica l’impacte en el calendari i què n’has après. No hi copiïs dades personals ni credencials dels usuaris.]
 
 # SEGUIMENT DIARI
 
-[Completa el dietari després de cada sessió. En projectes en grup, cada membre ha de mantenir el seu propi seguiment. Duplica el bloc següent per a cada dia.]
+[Completa el dietari després de cada sessió i relaciona la feina amb tasques concretes del projecte: anàlisi amb el centre, requisits, disseny de pantalles, implementació Android, proves o documentació. En projectes en grup, cada membre ha de mantenir el seu seguiment. Duplica el bloc per a cada dia i enllaça evidències sense exposar dades personals.]
 
 Data: [dia/mes/any] · Autor/a: [nom] · Temps dedicat: [hores]
 
@@ -161,7 +161,7 @@ Pròxima sessió: [tasques pendents]
 
 # CONCLUSIONS
 
-[Valora el grau d’assoliment de cada objectiu amb evidències. Resumeix els resultats, les limitacions i les millores futures. Indica l’estat del desplegament, la posada en marxa i les proves del producte, sense introduir resultats que no hagis explicat abans.]
+[Repassa cada objectiu inicial i valora si s’ha assolit amb evidències. Resumeix què fa realment l’app Android, els resultats de les proves amb els perfils o dispositius disponibles, les limitacions (per exemple, funcions no implementades o integracions pendents) i les millores futures. Indica si s’ha instal·lat, desplegat o validat pel centre; diferencia clarament una prova pròpia d’una validació feta per usuaris o pel centre. No presentis com a resultats funcions que només s’havien proposat.]
 
 # BIBLIOGRAFIA
 
@@ -181,7 +181,7 @@ Pròxima sessió: [tasques pendents]
 
 # COMENTARI PERSONAL
 
-[Valora personalment l’experiència: els coneixements adquirits, l’organització, les dificultats i què faries diferent. Si el projecte és en grup, identifica la valoració de cada membre.]
+[Valora personalment l’experiència de dissenyar i desenvolupar l’app per a la borsa de pràctiques: què has après sobre Android, anàlisi de requisits i treball amb els usuaris, quines dificultats has tingut i què canviaries en una nova versió. Basa la valoració en el procés real. Si el projecte és en grup, identifica la valoració de cada membre.]
 
 # ANNEXOS OPCIONALS {.unnumbered}
 
@@ -189,4 +189,4 @@ Pròxima sessió: [tasques pendents]
 
 ## Annex 1 Títol de l’annex {.unnumbered}
 
-[Afegeix aquí el contingut de l’annex.]
+[Afegeix aquí el contingut de l’annex, per exemple diagrames ampliats, captures addicionals, resultats detallats de proves o documentació tècnica que complementi la memòria. No hi incloguis dades reals d’alumnes ni credencials.]
