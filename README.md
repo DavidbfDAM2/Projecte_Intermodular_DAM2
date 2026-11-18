@@ -16,6 +16,7 @@ Projecte_intermodular/
 │   └── memoria_projecte/
 │       ├── Memoria.md
 │		└── Memoria.pdf
+├── src/
 ├── .gitignore
 ├── .gitattributes
 └── README.md

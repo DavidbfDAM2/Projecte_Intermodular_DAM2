@@ -3,9 +3,6 @@
 ##
 ## Get latest from `dotnet new gitignore`
 
-# dotenv files
-.env
-
 # User-specific files
 *.rsuser
 *.suo
@@ -464,14 +461,19 @@ $RECYCLE.BIN/
 # Vim temporary swap files
 *.swp
 
-# Obsidian afegit per evitar que es pugin els fitxers de configuració de l'aplicació.
-.obsidian/
+# Obsidian: compartir només el plugin d'exportació i la llista de plugins
+.obsidian/*
+!.obsidian/community-plugins.json
+!.obsidian/plugins/
+.obsidian/plugins/*
+!.obsidian/plugins/memoria-pdf-css/
 
 # Configuració local de l'aplicació
 # Aquest fitxer pot contenir IPs, usuaris o contrasenyes pròpies de cada PC.
 appsettings.Local.json
 appsettings.local.json
 
-#Conversió de Memoria.md a Memoria.pdf amb plantilla
-# Eines de generació de la memòria
-/documentacio/memoria_projecte/memoria-pdf.css
+# Variables d'entorn i secrets locals
+.env
+.env.*
+!.env.example

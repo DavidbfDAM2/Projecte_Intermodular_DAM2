@@ -1,0 +1,48 @@
+/* ESTILS DEL PDF */
+
+@page { size: A4; margin: 30mm 25mm 30mm 30mm; }/* Defineix el paper A4 i els marges: dalt 30 mm, dreta 25 mm, baix 30 mm i esquerra 30 mm, en aquest ordre. */
+* { box-sizing: border-box; }/* Padding i vores inclosos dins de l'amplada i l'alçada declarades. */
+
+body              { font-family: "Times New Roman", serif; font-size: 12pt; line-height: 1.5; color: #000; margin: 0; }/* Estil general del text del document. */
+p                 { margin: 0 0 12pt; text-align: justify; text-indent: 0; orphans: 2; widows: 2; }/* Paràgrafs: espai inferior de 12 pt, alineació justificada i sense sagnat inicial. Orphans i widows eviten deixar una sola línia del paràgraf aïllada entre pàgines. */
+h1,h2,h3,h4       { font-family: inherit; font-weight: bold; line-height: 1.5; text-align: left; break-after: avoid; break-inside: avoid; }/* Format comú dels títols de nivell 1 a 4: mateixa família de lletra, negreta, interlineat 1,5, alineats a l'esquerra i sense separar-los del text següent. */
+h1                { font-size: 16pt; margin: 0 0 24pt; break-before: page; }                                   /* Títol principal de capítol: 16 pt, espai inferior de 24 pt i inici en pàgina nova. */
+h2,h3,h4          { font-size: 12pt; margin: 18pt 0 12pt; }                                                    /* Subtítols de nivells 2, 3 i 4: 12 pt, amb espai abans i després per separar-los del text. */
+a                 { color: #000; text-decoration: none; overflow-wrap: anywhere; }                           /* Enllaços en negre i sense subratllat; les adreces llargues poden saltar de línia. */
+.cover            { height: 230mm; position: relative; text-align: center; break-after: page; }                /* Portada: ocupa 230 mm d'alçada, centra el contingut i acaba amb un salt de pàgina. */
+.cover p          { text-align: center; }                                                                      /* També centra els paràgrafs que formen part de la portada. */
+.cover-centre     { font-size: 14pt; font-weight: bold; }                                                      /* Nom del centre a la portada: 14 pt i negreta. */
+.cover-title      { font-size: 26pt; font-weight: bold; line-height: 1.3; margin-top: 18mm; }                  /* Títol de la portada: 26 pt, negreta, interlineat 1,3 i 18 mm de separació superior. */
+.cover-subtitle   { font-size: 18pt; }                                                                         /* Subtítol de la portada: 18 pt. */
+.cover-details    { position: absolute; bottom: 4mm; left: 0; right: 0; font-size: 14pt; font-weight: bold; }  /* Dades finals de portada: es posicionen absolutament a 4 mm del seu límit inferior, ocupen tot l'ample disponible i es mostren centrades per l'estil general de .cover. */
+.toc              { break-after: page; }                                                                       /* L'índex acaba en un salt de pàgina, de manera que el cos comença a la pàgina següent. */
+.toc-title        { font-size: 16pt; font-weight: bold; margin: 0 0 18pt; }                                    /* Títol de l'índex: 16 pt, negreta i espai inferior de 18 pt. */
+.toc ul           { list-style: none; padding: 0; margin: 0; }                                                 /* Llista de l'índex: treu els punts habituals i els marges/padding predeterminats del navegador. */
+.toc li           { margin: 0 0 4pt; line-height: 1.3; break-inside: avoid; }                                  /* Cada entrada de l'índex: 4 pt de separació, interlineat 1,3 i es manté junta en una pàgina. */
+.toc li.level-2   { padding-left: 6mm; }                                                                       /* Indenta 6 mm les entrades de segon nivell de l'índex. */
+.toc li.level-3   { padding-left: 12mm; }                                                                      /* Indenta 12 mm les entrades de tercer nivell de l'índex. */
+.toc a            { display: flex; align-items: baseline; gap: 2mm; }                                          /* Cada enllaç de l'índex es distribueix en una fila flexible: títol, punts conductors i número de pàgina alineats per la base del text. */
+.toc-label        { flex: 0 1 auto; }                                                                          /* El títol de l'entrada ocupa només l'espai necessari, però pot encongir-se si cal. */
+.toc-dots         { flex: 1; border-bottom: 1px dotted #777; min-width: 3mm; }                               /* Els punts conductors ocupen l'espai lliure entre el títol i el número de pàgina. */
+.toc-page         { flex: 0 0 9mm; text-align: right; font-variant-numeric: tabular-nums; }                    /* Reserva 9 mm per als números de pàgina, els alinea a la dreta i manté els dígits regulars. */
+.referencia       { padding-left: 12.7mm; text-indent: -12.7mm; }                                              /* Bibliografia amb sagnat francès: les línies següents comencen 12,7 mm endins, mentre que la primera línia es desplaça 12,7 mm cap a l'esquerra. */
+blockquote        { margin: 12pt 12.7mm; }                                                                     /* Cites en bloc: marges verticals de 12 pt i sagnat lateral de 12,7 mm. */
+table             { width: 100%; border-collapse: collapse; font-size: 10pt; }                                 /* Taules a tota l'amplada disponible, vores adjacents compartides i text de 10 pt. */
+thead             { display: table-header-group; }                                                             /* Permet que la capçalera de la taula es repeteixi si aquesta continua en una altra pàgina. */
+tr                { break-inside: avoid; }                                                                     /* Intenta evitar que una fila de taula quedi partida entre dues pàgines. */
+th,td             { border: 0.5pt solid #888; padding: 4pt; }                                                /* Cel·les de capçalera i de contingut: vora grisa fina i 4 pt d'espai interior. */
+img,svg           { max-width: 100%; max-height: 210mm; object-fit: contain; }                                 /* Imatges i gràfics SVG no poden superar l'ample del text ni 210 mm d'alçada; object-fit conserva la imatge sencera dins de l'espai disponible. */
+figure            { break-inside: avoid; margin: 12pt 0; }                                                     /* Figures: es mantenen senceres en una mateixa pàgina i tenen espai vertical de 12 pt. */
+figcaption,.footnotes { font-size: 10pt; line-height: 1; }                                                     /* Peu de figura i notes a peu de pàgina: text de 10 pt amb interlineat senzill. */
+pre               { white-space: pre-wrap; overflow-wrap: anywhere; font-size: 10pt; }                         /* Blocs de codi: permeten salts de línia dins de línies llargues i redueixen la lletra a 10 pt. */
+code              { font-family: Consolas, monospace; }                                                        /* Text de codi en línia: s'escriu amb una tipografia monoespaiada. */
+ul,ol             { padding-left: 8mm; }                                                                       /* Llistes numerades i amb punts: reserva 8 mm a l'esquerra per als marcadors. */
+.memoria-header   { position: absolute; top: 14mm; left: 30mm; right: 25mm; font-size: 10pt; line-height: 1.2; white-space: nowrap; overflow: hidden; }/* Capçaleres afegides pel complement després de calcular les pàgines. Es col·loquen a 14 mm de dalt, respectant els marges laterals del text. */
+.memoria-header.senar { text-align: right; font-style: italic; }                                               /* Capçalera de pàgina senar: alineada a la dreta i en cursiva. */
+.memoria-header.parell { text-align: left; }                                                                   /* Capçalera de pàgina parella: alineada a l'esquerra. */
+.memoria-footer   { position: absolute; bottom: 13mm; left: 0; right: 0; text-align: center; font-size: 10pt; line-height: 1; }/* Número de pàgina afegit pel complement: centrat a 13 mm del límit inferior. */
+.inicio-capitol .memoria-footer { display: none; }                                                             /* Amaga el número de pàgina a les pàgines d'inici de capítol. */
+
+
+/* Regles que només s'apliquen quan s'imprimeix: treu el marge extern i l'ombra de previsualització que Paged.js posa a cada pàgina. */
+@media print {.pagedjs_page { margin: 0 !important; box-shadow: none !important; }}
